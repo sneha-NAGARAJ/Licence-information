@@ -1,0 +1,23 @@
+.signup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: larger;
+    min-height: 600px;
+    
+    
+}
+h4{
+    margin-bottom: -270px;
+    color:aliceblue;
+    font-size: xx-large;
+}
+body{
+    margin: 0;
+    padding: 0;
+ 
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}

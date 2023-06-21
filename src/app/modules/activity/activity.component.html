@@ -1,0 +1,150 @@
+<div class="background">
+    <div class="first">
+        <h5> INSTITUTES </h5>
+    </div>
+    <form style="background-color:white" #addForm="ngForm" (ngSubmit)="submitedFrm(addForm.value)">
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Trainee Features </label>
+            <div class="col-sm-10">
+                <input type="radio" value="yes" name="Trainee Features" id="Features" #Trainee="ngModel" required
+                    ngModel>Yes
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="no" name="Trainee Features" id="Features" #Trainee="ngModel" required
+                    ngModel>No
+            </div>
+        </div>
+
+
+
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Traniee Limit</label>
+            <div class="col-sm-10">
+                <input type="radio" value="yes" name="limit" id="rad" #limit="ngModel" required ngModel>unlimited
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="no" name="limit" id="rad" #limit="ngModel" required ngModel>Limited
+            </div>
+        </div>
+
+
+        <div class="row mb-3">
+            <div class="col-2"><label for="inputPassword3" class="col-sm-2 col-form-label">Modules</label> </div>
+            <div class="col-2">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Select section
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li *ngFor="let list of meth">
+                            <a class="dropdown-item" href="#">{{list.SectionName}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-2">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        All modules
+                    </button>
+                    <ul class="dropdown-menu scrollable-menu " aria-labelledby="dropdownMenuButton1">
+                        <li *ngFor="let mode of priority">
+                            <a class="dropdown-item" href="#"></a>{{ mode.ModuleName}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-2">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Validity(Days)
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">180</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-2">
+                <i class="bi bi-backspace  mx-2 text-danger" (click)="deleteTask(item.id,i)">&nbsp;&nbsp;selection is
+                    requierd</i>
+            </div>
+        </div>
+
+        <div class="module">
+            <div class="col-sm-10">
+                <button type="button" class="btn btn-primary">ADD MODULE</button>
+            </div>
+        </div>
+
+
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Remarks</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" name="Remarks" #Remarks="ngModel" required ngModel id="description"
+                    rows="3">
+                </textarea>
+            </div>
+        </div>
+
+
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Status</label>
+            <div class="col-sm-10">
+                <input type="radio" value="yes" name="Status" id="sts" #Status="ngModel" required ngModel>Active
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="no" name="Status" id="sts" #Status="ngModel" required ngModel>Inactive
+            </div>
+        </div>
+
+
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Logo!</label>
+            <div class="col-sm-10">
+                <input class="form-control" type="file" id="formFile" name="logo" #logo="ngModel" required ngModel>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success">REGISTER</button>&nbsp;
+        <button type="delete" class="btn btn-warning" (click)="deleteItem">CANCEL</button>
+    </form>
+
+    <div class="firsts">
+        <h5>LICENCE INFORMATION</h5>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Institutes</th>
+                <th scope="col">Institute Code</th>
+                <th scope="col"> Total No Of Trainees</th>
+                <th scope="col">Phone No</th>
+                <th scope="col">Trainee Limit</th>
+                <th scope="col">Email</th>
+                <th scope="col">Contact Person</th>
+                <th scope="col">No.Of Active Learners</th>
+                <th scope="col">Last Upadated Date</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let mainArrays of mainArray ">
+                <td>{{mainArrays.InsName}}</td>
+                <td>{{mainArrays.InsCode}}</td>
+                <td>{{mainArrays.InsId}}</td>
+                <td>{{mainArrays.ContactPhone}}</td>
+                <td>{{mainArrays.TraineeLimit}}</td>
+                <td>{{mainArrays.ContactEmail}}</td>
+                <td>{{mainArrays.ContactPerson}}</td>
+                <td>{{mainArrays.TraineeEnroll}}</td>
+                <td>{{mainArrays.ActiveSubscriber}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

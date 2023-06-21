@@ -1,0 +1,32 @@
+[
+    {
+        "SectionId": 1,
+        "SectionName": "Section 1 - General",
+        "SectionCode": "s1"
+    },
+    {
+        "SectionId": 2,
+        "SectionName": "Section 2 - Airframe",
+        "SectionCode": "s2"
+    },
+    {
+        "SectionId": 3,
+        "SectionName": "Section 3 - Powerplant",
+        "SectionCode": "s3"
+    },
+    {
+        "SectionId": 4,
+        "SectionName": "Section 1 - General (E-Text Book)",
+        "SectionCode": "s4"
+    },
+    {
+        "SectionId": 5,
+        "SectionName": "Section 2 - Airframe (E-Text Book)",
+        "SectionCode": "s5"
+    },
+    {
+        "SectionId": 6,
+        "SectionName": "Section 3 - Powerplant (E-Text Book)",
+        "SectionCode": "s6"
+    }
+]

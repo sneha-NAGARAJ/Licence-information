@@ -1,0 +1,482 @@
+[
+{
+    "ModuleId": 101,
+    "SectionId": 1,
+    "ModuleName": "A. Fundamentals of Electricity and Electronics",
+    "ModuleCode": "s1_a"
+},
+{
+    "ModuleId": 102,
+    "SectionId": 1,
+    "ModuleName": "B. Aircraft Drawings",
+    "ModuleCode": "s1_b"
+},
+{
+    "ModuleId": 103,
+    "SectionId": 1,
+    "ModuleName": "C. Weight and Balance",
+    "ModuleCode": "s1_c"
+},
+{
+    "ModuleId": 104,
+    "SectionId": 1,
+    "ModuleName": "D. Fluid Lines and Fittings",
+    "ModuleCode": "s1_d"
+},
+{
+    "ModuleId": 105,
+    "SectionId": 1,
+    "ModuleName": "E. Aircraft Materials, Hardware, and Processes",
+    "ModuleCode": "s1_e"
+},
+{
+    "ModuleId": 106,
+    "SectionId": 1,
+    "ModuleName": "F. Ground Operations and Servicing",
+    "ModuleCode": "s1_f"
+},
+{
+    "ModuleId": 107,
+    "SectionId": 1,
+    "ModuleName": "G. Cleaning and Corrosion Control",
+    "ModuleCode": "s1_g"
+},
+{
+    "ModuleId": 108,
+    "SectionId": 1,
+    "ModuleName": "H. Mathematics",
+    "ModuleCode": "s1_h"
+},
+{
+    "ModuleId": 109,
+    "SectionId": 1,
+    "ModuleName": "I. Regulations, Maintenance Forms, Records, and Publications",
+    "ModuleCode": "s1_i"
+},
+{
+    "ModuleId": 110,
+    "SectionId": 1,
+    "ModuleName": "J. Physics for Aviation",
+    "ModuleCode": "s1_j"
+},
+{
+    "ModuleId": 111,
+    "SectionId": 1,
+    "ModuleName": "K. Inspection Concepts and Techniques",
+    "ModuleCode": "s1_k"
+},
+{
+    "ModuleId": 112,
+    "SectionId": 1,
+    "ModuleName": "L. Human Factors",
+    "ModuleCode": "s1_l"
+},
+{
+    "ModuleId": 201,
+    "SectionId": 2,
+    "ModuleName": "A. Metallic Structures",
+    "ModuleCode": "s2_a"
+},
+{
+    "ModuleId": 202,
+    "SectionId": 2,
+    "ModuleName": "B. Non-Metallic Structures",
+    "ModuleCode": "s2_b"
+},
+{
+    "ModuleId": 203,
+    "SectionId": 2,
+    "ModuleName": "C. Flight Controls",
+    "ModuleCode": "s2_c"
+},
+{
+    "ModuleId": 204,
+    "SectionId": 2,
+    "ModuleName": "D. Airframe Inspection",
+    "ModuleCode": "s2_d"
+},
+{
+    "ModuleId": 205,
+    "SectionId": 2,
+    "ModuleName": "E. Landing Gear Systems",
+    "ModuleCode": "s2_e"
+},
+{
+    "ModuleId": 206,
+    "SectionId": 2,
+    "ModuleName": "F. Hydraulic and Pneumatic Systems",
+    "ModuleCode": "s2_f"
+},
+{
+    "ModuleId": 207,
+    "SectionId": 2,
+    "ModuleName": "G. Environmental Systems",
+    "ModuleCode": "s2_g"
+},
+{
+    "ModuleId": 208,
+    "SectionId": 2,
+    "ModuleName": "H. Aircraft Instrument Systems",
+    "ModuleCode": "s2_h"
+},
+{
+    "ModuleId": 209,
+    "SectionId": 2,
+    "ModuleName": "I. Communication and Navigation Systems",
+    "ModuleCode": "s2_i"
+},
+{
+    "ModuleId": 210,
+    "SectionId": 2,
+    "ModuleName": "J. Aircraft Fuel Systems",
+    "ModuleCode": "s2_j"
+},
+{
+    "ModuleId": 211,
+    "SectionId": 2,
+    "ModuleName": "K. Aircraft Electrical Systems",
+    "ModuleCode": "s2_k"
+},
+{
+    "ModuleId": 212,
+    "SectionId": 2,
+    "ModuleName": "L. Ice and Rain Control Systems",
+    "ModuleCode": "s2_l"
+},
+{
+    "ModuleId": 213,
+    "SectionId": 2,
+    "ModuleName": "M. Airframe Fire Protection Systems",
+    "ModuleCode": "s2_m"
+},
+{
+    "ModuleId": 214,
+    "SectionId": 2,
+    "ModuleName": "N. Rotorcraft Fundamentals",
+    "ModuleCode": "s2_n"
+},
+{
+    "ModuleId": 215,
+    "SectionId": 2,
+    "ModuleName": "O. Water and Waste Systems",
+    "ModuleCode": "s2_o"
+},
+{
+    "ModuleId": 301,
+    "SectionId": 3,
+    "ModuleName": "A. Reciprocating Engines",
+    "ModuleCode": "s3_a"
+},
+{
+    "ModuleId": 302,
+    "SectionId": 3,
+    "ModuleName": "B. Turbine Engines",
+    "ModuleCode": "s3_b"
+},
+{
+    "ModuleId": 303,
+    "SectionId": 3,
+    "ModuleName": "C. Engine Inspection",
+    "ModuleCode": "s3_c"
+},
+{
+    "ModuleId": 304,
+    "SectionId": 3,
+    "ModuleName": "D. Engine Instrument Systems",
+    "ModuleCode": "s3_d"
+},
+{
+    "ModuleId": 305,
+    "SectionId": 3,
+    "ModuleName": "E. Engine Fire Protection Systems",
+    "ModuleCode": "s3_e"
+},
+{
+    "ModuleId": 306,
+    "SectionId": 3,
+    "ModuleName": "F. Engine Electrical Systems",
+    "ModuleCode": "s3_f"
+},
+{
+    "ModuleId": 307,
+    "SectionId": 3,
+    "ModuleName": "G. Engine Lubrication Systems",
+    "ModuleCode": "s3_g"
+},
+{
+    "ModuleId": 308,
+    "SectionId": 3,
+    "ModuleName": "H. Ignition and Starting Systems",
+    "ModuleCode": "s3_h"
+},
+{
+    "ModuleId": 309,
+    "SectionId": 3,
+    "ModuleName": "I. Engine Fuel and Fuel Metering Systems",
+    "ModuleCode": "s3_i"
+},
+{
+    "ModuleId": 310,
+    "SectionId": 3,
+    "ModuleName": "J. Reciprocating Engine Induction and Cooling Systems",
+    "ModuleCode": "s3_j"
+},
+{
+    "ModuleId": 311,
+    "SectionId": 3,
+    "ModuleName": "K. Turbine Engine Air Systems",
+    "ModuleCode": "s3_k"
+},
+{
+    "ModuleId": 312,
+    "SectionId": 3,
+    "ModuleName": "L. Engine Exhaust and Reverser Systems",
+    "ModuleCode": "s3_l"
+},
+{
+    "ModuleId": 313,
+    "SectionId": 3,
+    "ModuleName": "M. Propellers",
+    "ModuleCode": "s3_m"
+},
+{
+    "ModuleId": 314,
+    "SectionId": 4,
+    "ModuleName": "A. Fundamentals of Electricity and Electronics (E-Textbook)",
+    "ModuleCode": "s1_aTB"
+},
+{
+    "ModuleId": 315,
+    "SectionId": 4,
+    "ModuleName": "B. Aircraft Drawings (E-Textbook)",
+    "ModuleCode": "s1_bTB"
+},
+{
+    "ModuleId": 316,
+    "SectionId": 4,
+    "ModuleName": "C. Weight and Balance (E-Textbook)",
+    "ModuleCode": "s1_cTB"
+},
+{
+    "ModuleId": 317,
+    "SectionId": 4,
+    "ModuleName": "D. Fluid Lines and Fittings (E-Textbook)",
+    "ModuleCode": "s1_dTB"
+},
+{
+    "ModuleId": 318,
+    "SectionId": 4,
+    "ModuleName": "E. Aircraft Materials, Hardware, and Processes (E-Textbook)",
+    "ModuleCode": "s1_eTB"
+},
+{
+    "ModuleId": 319,
+    "SectionId": 4,
+    "ModuleName": "F. Ground Operations and Servicing (E-Textbook)",
+    "ModuleCode": "s1_fTB"
+},
+{
+    "ModuleId": 320,
+    "SectionId": 4,
+    "ModuleName": "G. Cleaning and Corrosion Control (E-Textbook)",
+    "ModuleCode": "s1_gTB"
+},
+{
+    "ModuleId": 321,
+    "SectionId": 4,
+    "ModuleName": "H. Mathematics (E-Textbook)",
+    "ModuleCode": "s1_hTB"
+},
+{
+    "ModuleId": 322,
+    "SectionId": 4,
+    "ModuleName": "I. Regulations, Maintenance Forms, Records, and Publications (E-Textbook)",
+    "ModuleCode": "s1_iTB"
+},
+{
+    "ModuleId": 323,
+    "SectionId": 4,
+    "ModuleName": "J. Physics for Aviation (E-Textbook)",
+    "ModuleCode": "s1_jTB"
+},
+{
+    "ModuleId": 324,
+    "SectionId": 4,
+    "ModuleName": "K. Inspection Concepts and Techniques (E-Textbook)",
+    "ModuleCode": "s1_kTB"
+},
+{
+    "ModuleId": 325,
+    "SectionId": 4,
+    "ModuleName": "L. Human Factors (E-Textbook)",
+    "ModuleCode": "s1_lTB"
+},
+{
+    "ModuleId": 326,
+    "SectionId": 5,
+    "ModuleName": "A. Metallic Structures (E-Textbook)",
+    "ModuleCode": "s2_aTB"
+},
+{
+    "ModuleId": 327,
+    "SectionId": 5,
+    "ModuleName": "B. Non-Metallic Structures (E-Textbook)",
+    "ModuleCode": "s2_bTB"
+},
+{
+    "ModuleId": 328,
+    "SectionId": 5,
+    "ModuleName": "C. Flight Controls (E-Textbook)",
+    "ModuleCode": "s2_cTB"
+},
+{
+    "ModuleId": 329,
+    "SectionId": 5,
+    "ModuleName": "D. Airframe Inspection (E-Textbook)",
+    "ModuleCode": "s2_dTB"
+},
+{
+    "ModuleId": 330,
+    "SectionId": 5,
+    "ModuleName": "E. Landing Gear Systems (E-Textbook)",
+    "ModuleCode": "s2_eTB"
+},
+{
+    "ModuleId": 331,
+    "SectionId": 5,
+    "ModuleName": "F. Hydraulic and Pneumatic Systems (E-Textbook)",
+    "ModuleCode": "s2_fTB"
+},
+{
+    "ModuleId": 332,
+    "SectionId": 5,
+    "ModuleName": "G. Environmental Systems (E-Textbook)",
+    "ModuleCode": "s2_gTB"
+},
+{
+    "ModuleId": 333,
+    "SectionId": 5,
+    "ModuleName": "H. Aircraft Instrument Systems (E-Textbook)",
+    "ModuleCode": "s2_hTB"
+},
+{
+    "ModuleId": 334,
+    "SectionId": 5,
+    "ModuleName": "I. Communication and Navigation Systems (E-Textbook)",
+    "ModuleCode": "s2_iTB"
+},
+{
+    "ModuleId": 335,
+    "SectionId": 5,
+    "ModuleName": "J. Aircraft Fuel Systems (E-Textbook)",
+    "ModuleCode": "s2_jTB"
+},
+{
+    "ModuleId": 336,
+    "SectionId": 5,
+    "ModuleName": "K. Aircraft Electrical Systems (E-Textbook)",
+    "ModuleCode": "s2_kTB"
+},
+{
+    "ModuleId": 337,
+    "SectionId": 5,
+    "ModuleName": "L. Ice and Rain Control Systems (E-Textbook)",
+    "ModuleCode": "s2_lTB"
+},
+{
+    "ModuleId": 338,
+    "SectionId": 5,
+    "ModuleName": "M. Airframe Fire Protection Systems (E-Textbook)",
+    "ModuleCode": "s2_mTB"
+},
+{
+    "ModuleId": 339,
+    "SectionId": 5,
+    "ModuleName": "N. Rotorcraft Fundamentals (E-Textbook)",
+    "ModuleCode": "s2_nTB"
+},
+{
+    "ModuleId": 340,
+    "SectionId": 5,
+    "ModuleName": "O. Water and Waste Systems (E-Textbook)",
+    "ModuleCode": "s2_oTB"
+},
+{
+    "ModuleId": 341,
+    "SectionId": 6,
+    "ModuleName": "A. Reciprocating Engines (E-Textbook)",
+    "ModuleCode": "s3_aTB"
+},
+{
+    "ModuleId": 342,
+    "SectionId": 6,
+    "ModuleName": "B. Turbine Engines (E-Textbook)",
+    "ModuleCode": "s3_bTB"
+},
+{
+    "ModuleId": 343,
+    "SectionId": 6,
+    "ModuleName": "C. Engine Inspection (E-Textbook)",
+    "ModuleCode": "s3_cTB"
+},
+{
+    "ModuleId": 344,
+    "SectionId": 6,
+    "ModuleName": "D. Engine Instrument Systems (E-Textbook)",
+    "ModuleCode": "s3_dTB"
+},
+{
+    "ModuleId": 345,
+    "SectionId": 6,
+    "ModuleName": "E. Engine Fire Protection Systems (E-Textbook)",
+    "ModuleCode": "s3_eTB"
+},
+{
+    "ModuleId": 346,
+    "SectionId": 6,
+    "ModuleName": "F. Engine Electrical Systems (E-Textbook)",
+    "ModuleCode": "s3_fTB"
+},
+{
+    "ModuleId": 347,
+    "SectionId": 6,
+    "ModuleName": "G. Engine Lubrication Systems (E-Textbook)",
+    "ModuleCode": "s3_gTB"
+},
+{
+    "ModuleId": 348,
+    "SectionId": 6,
+    "ModuleName": "H. Ignition and Starting Systems (E-Textbook)",
+    "ModuleCode": "s3_hTB"
+},
+{
+    "ModuleId": 349,
+    "SectionId": 6,
+    "ModuleName": "I. Engine Fuel and Fuel Metering Systems (E-Textbook)",
+    "ModuleCode": "s3_iTB"
+},
+{
+    "ModuleId": 350,
+    "SectionId": 6,
+    "ModuleName": "J. Reciprocating Engine Induction and Cooling Systems (E-Textbook)",
+    "ModuleCode": "s3_jTB"
+},
+{
+    "ModuleId": 351,
+    "SectionId": 6,
+    "ModuleName": "K. Turbine Engine Air Systems (E-Textbook)",
+    "ModuleCode": "s3_kTB"
+},
+{
+    "ModuleId": 352,
+    "SectionId": 6,
+    "ModuleName": "L. Engine Exhaust and Reverser Systems (E-Textbook)",
+    "ModuleCode": "s3_lTB"
+},
+{
+    "ModuleId": 353,
+    "SectionId": 6,
+    "ModuleName": "M. Propellers (E-Textbook)",
+    "ModuleCode": "s3_mTB"
+}
+]

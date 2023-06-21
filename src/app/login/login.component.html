@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("assets/img/waterimg.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center">
+        <h4>Login Now!</h4>
+    </div>
+    <div class="signup-form">
+        <form #form="ngForm" (ngSubmit)="login(form.value)">
+            <div class="mb-3">
+                <label for="text" class="form-label">Username</label>
+                <input type="text" ngModel name="text" id="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" ngModel name="password" id="password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary" routerLink="/activity">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
